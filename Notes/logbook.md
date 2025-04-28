@@ -18,7 +18,13 @@ This will be a log of everything I look up/research. I will report any major fin
             * Default region name
             * Default output format
         * Easy setup and persistent across shell sessions BUT can get messy with multiple profiles
-
     * Using CLI environ variables
+* IAM users 
+    * identity and access management
+    * Specific user account within the AWS account
+    * Has own credentials (username/pw)
+    * Typically the root account is the master account with unrestricted access to everything
+    * Good practice is to use the Root account to make IAM users then lock it down
+    
 
 ### Installing the client tools
