@@ -18,7 +18,19 @@ This will be a log of everything I look up/research. I will report any major fin
             * Default region name
             * Default output format
         * Easy setup and persistent across shell sessions BUT can get messy with multiple profiles
-
     * Using CLI environ variables
+
+Setting up git
+* Set up repo and connected it to github desktop
+* Connected my Ubuntu to git using the CLI
+    * Set my environment username and email
+    * Set my SSH and HTTPS both up
+        * Apparently it is common practice to use both
+        * SSH is better for when you want to generate an SSH key once and forget about it. No more token prompts, easy commit signing, and your key never expires
+        * HTTPS is hassle-free because port 443 is always open and you can cut a token’s scope to just one repo if you like
+        * `origin` is used for SSH
+        * `https` is for remote fallback (especially if there is an active network firewall)
+        
+
 
 ### Installing the client tools
